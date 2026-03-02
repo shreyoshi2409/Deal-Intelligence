@@ -5,7 +5,7 @@ import re
 
 app = Flask(__name__)
 
-API_KEY = "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"
+API_KEY = "My API key"
 
 # -------------------------------
 # Feature 5 — Session Memory (global counters)
