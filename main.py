@@ -5,7 +5,8 @@ import re
 
 app = Flask(__name__)
 
-API_KEY = "My API key"
+import os
+API_KEY = os.environ.get("API_KEY")
 
 # -------------------------------
 # Feature 5 — Session Memory (global counters)
@@ -154,4 +155,4 @@ def home():
     # -------------------------------
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=10000)
