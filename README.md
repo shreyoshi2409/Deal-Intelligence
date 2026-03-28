@@ -1,6 +1,6 @@
 # Deal Intelligence
 
-## Introduction
+## Intro
 
 Deal Intelligence is a data-driven application designed to streamline and enhance the process of deal analysis and management. The repository provides tools and scripts for data extraction, transformation, and visualization, primarily focused on financial transactions, market analytics, and risk evaluation. The project leverages Python, Jupyter Notebooks, and a suite of data science libraries to deliver actionable insights from raw deal data.
 
